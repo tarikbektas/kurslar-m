@@ -14,7 +14,7 @@ function App() {
       setLoading(false);
     } catch (error) {
       console.log("hata mesajı", error);
-      setLoading(false);aasdasdas
+      setLoading(false);
     }
   };
 
