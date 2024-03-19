@@ -1,0 +1,51 @@
+ .card-item{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 21px;
+    padding: 18px;
+    margin: 15px;
+ }
+ .course-title{
+    text-align: center;
+ }
+ .course{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+ .card-price{
+    margin-left: auto;
+ }
+ .card-header{
+    display: flex;
+ }
+ .card-delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .delete-button{
+    font-size: 22px;
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 11px;
+    padding: 2px 16px;
+    margin-top: 5px ;
+ }
+ .courses-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .refresh-button{
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 7px;
+    font-size: 23px;
+    padding: 9px;
+ }
